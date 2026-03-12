@@ -40,10 +40,10 @@ ln "$REPO/RelaunchDuet.applescript" "$DEST/"
 
 Open EventScripts preferences and assign:
 
-| Event                      | Script                    |
-|----------------------------|---------------------------|
-| **User Did Resign Active** | `QuitDuet.applescript`    |
-| **User Did Become Active** | `RelaunchDuet.applescript`|
+| Event                        | Script                    |
+|------------------------------|---------------------------|
+| **Fast user switched out**   | `QuitDuet.applescript`    |
+| **Fast user switched in**    | `RelaunchDuet.applescript`|
 
 ### 3. Test
 

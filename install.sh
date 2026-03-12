@@ -23,5 +23,5 @@ done
 
 echo ""
 echo "Done. Now open EventScripts preferences and assign:"
-echo "  User Did Resign Active  -> QuitDuet.applescript"
-echo "  User Did Become Active  -> RelaunchDuet.applescript"
+echo "  Fast user switched out  -> QuitDuet.applescript"
+echo "  Fast user switched in   -> RelaunchDuet.applescript"
